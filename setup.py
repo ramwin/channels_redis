@@ -18,14 +18,14 @@ test_requires = crypto_requires + [
 
 
 setup(
-    name="channels_redis",
+    name="channels_redis2",
     version=__version__,
     url="http://github.com/django/channels_redis/",
     author="Django Software Foundation",
     author_email="foundation@djangoproject.com",
     description="Redis-backed ASGI channel layer implementation",
     long_description=readme,
-    license="BSD",
+    license_file="LICENSE",
     zip_safe=False,
     packages=find_packages(exclude=["tests"]),
     include_package_data=True,
